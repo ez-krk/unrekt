@@ -2,7 +2,6 @@ import Hero from './components/hero/hero.component';
 import Header from './components/header/header.component';
 import Table from './components/table/table.component';
 import Footer from './components/footer/footer.component';
-// import Unrekt from './components/unrekt/unrekt';
 
 function App() {
   return (
