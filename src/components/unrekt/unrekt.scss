@@ -1,0 +1,20 @@
+th,
+td,
+ul,
+li,
+.overflow {
+  max-width: 25vw;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  word-wrap: break-word;
+}
+
+ul,
+li,
+.overflow {
+  max-width: 25vw;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: initial;
+  text-align: center;
+}

@@ -10,17 +10,24 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "daisyui": "^2.30.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3",
     "react-scripts": "5.0.1",
+    "react-uuid": "^1.0.3",
+    "remark-gfm": "^3.0.1",
+    "sass": "^1.54.9",
     "typescript": "^4.4.2",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "unrekt": "node ./src/utils/json2js.js"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +46,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.7",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }

@@ -1,0 +1,457 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "category": "Team",
+      "content": [
+        {
+          "subId": "1.1",
+          "subCategory": "Team Experience & Expertise",
+          "questions": [
+            "Are the team members known/doxxed ?",
+            "What is the team experience ?",
+            "What relevant experience does the team have ?",
+            "Is the team competent enough to deliver on the roadmap ?"
+          ],
+          "checklist": [
+            "Check the team's LinkedIn / Twitter / Github progiles. Be wary of fake profiles.",
+            "If the team is unknown == bad sign !",
+            "Check whenever the team has sufficient competencies to deliver on their roadmap. It's easy to have big plans, but that doesn't entail the capability to execute them."
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "Check if a LinkedIn profile is fake",
+              "link": "https://www.tutorialspoint.com/how-to-spot-fake-linkedin-profiles#:~:text=You%20should%20see%20the%20user%27s,user%27s%20About%20page%2C%20for%20example."
+            }
+          ]
+        },
+        {
+          "subId": "1.2",
+          "subCategory": "Team funding",
+          "questions": [
+            "How is the team funded ?",
+            "What is the team runway ?",
+            "Does the team knows how to manage a treasury ?",
+            "Did they convert raised amounts to stablecoins ?",
+            "Did the team raise capital privately with VC or Business Angels ?"
+          ],
+          "checklist": [
+            "Check public sources for fundraising annoucements such as Twitter or Crunchbase.",
+            "To understand the team burn rate and runway, get a feel for team salaries by : FTE (Full-Time Equivalent) * Average Market Salary",
+            "Check if the raised amount was converted to stablecoins on Etherscan or applicable blockchain explorer. (If applicable)",
+            "Ideally, a project would have a 1-year runway in cash for small-scale projects and a 2-year runway for large-scale projects. If you notice that the treasury is being actively traded, it's a bad sign anon.",
+            "Be wary of the VC : they do not guarantee the integrity of a project, and they are the ones dumping on you."
+          ],
+          "tools": []
+        },
+        {
+          "subId": "1.3",
+          "subCategory": "Backing",
+          "questions": [
+            "How are the advisors/council members ?",
+            "Is the project backed by VC's ? Are these \"Spray & Pray VC's\" ?",
+            "What value are they adding ?"
+          ],
+          "checklist": [
+            "Check for the project advisors on their website or whitepaper, and check their relevant expertise on LinkedIn or Twitter.",
+            "Check the VC's portfolio and analyze the type of investments they do. Are they \"Spray & Pray\" type of investors ? The truth is in crypto, many VC's invest in protocol/companies they do not understand."
+          ],
+          "tools": []
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "category": "Community",
+      "content": [
+        {
+          "subId": "2.1",
+          "subCategory": "Engagement",
+          "questions": [
+            "What is the community engagement rate on the project's socials such as Twitter, Discord and Reddit ?",
+            "Is the community genuine ?"
+          ],
+          "checklist": [
+            "An engagement rate > 5% on Twitter is considered good. Do not be misguided by fake engagement, a lot of accounts are using bots to boost engagement.",
+            "Furthermore, \"paid shillers\" and \"giveaway accounts\" are serious red flags. A sudden rise in followers is most likely due to bots or giveaways.",
+            "The reality is most crypto-accounts purchase fake followers and community members (Chatters)"
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "Subreddit engagement analytics tool",
+              "link": "https://subredditstats.com/"
+            },
+            {
+              "toolId": "2",
+              "tldr": "Twitter engagement analytics tool",
+              "link": "https://getmashhor.com/en/twitter-engagement-calculator"
+            }
+          ]
+        },
+        {
+          "subId": "2.2",
+          "subCategory": "Motivation & Growth",
+          "questions": [
+            "What is the motive for community members to interact/bond ?",
+            "What is so unique about the community ?",
+            "Is the community growing, or in decline ?",
+            "What is the growth funnel of the community ?"
+          ],
+          "checklist": [
+            "Join the discord of the community and interact with community members for some time. Try to find what is so special about the community.",
+            "A community will only last if it is unique. If the community only discusses price action and speculation, it won't last.",
+            "If the project employs unhealthy marketing tactics such as alpha calls and paid shillers, it is unhealthy traffic and tends to attract flippers and short-term investors"
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "Tool to analyze Twitter bots",
+              "link": "https://botometer.osome.iu.edu/"
+            }
+          ]
+        },
+        {
+          "subId": "2.3",
+          "subCategory": "Demographics",
+          "questions": [
+            "What is the community demographic ?",
+            "And investor/member profiles ?",
+            "Are community members crypto veterans ?",
+            "What is the average wallet wealth of the community ?"
+          ],
+          "checklist": [
+            "The higher the quality of the community, inherently, the higher the quality of the project. \"Your network is your net growth\".    ",
+            "Analyze holder's wallets with zapper.fi and blockchain explorer. Note that XBorg will open-source such tool :)",
+            "Check wallet crossover with bluechip NFTs with the provided links."
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "Analyze on-chain wallets holdings with zapper.fi",
+              "link": "https://zapper.fi/"
+            },
+            {
+              "toolId": "2",
+              "tldr": "Explore wallet crossovers on NFTinit and check how many blue-chip NFTs are held by the NFT investors",
+              "link": "https://nftinit.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "category": "Product and Roadmap",
+      "content": [
+        {
+          "subId": "3.1",
+          "subCategory": "Pain Points",
+          "questions": [
+            "What problem is the NFT project solving ?",
+            "What are the reasons for the NFT project to exist ?"
+          ],
+          "checklist": [
+            "Check the project whitepaper. It most often requires market research to understand to what extent the project is adding value in a specific field/sector.",
+            "If the project isn't addressing any pain point, what are the reasons for it to exists ?",
+            "If you can't find reasons for the NFT project to exist, I am sure you won't find reasons for you to buy it."
+          ],
+          "tools": []
+        },
+        {
+          "subId": "3.2",
+          "subCategory": "Solution",
+          "questions": [
+            "What solution is the project building ?",
+            "What is innovative about the project ?",
+            "Is the NFT adding value to the project ?",
+            "Why do users care about the product ?"
+          ],
+          "checklist": [
+            "Seek to understand what is so unique about the product and that can't be replicated.",
+            "What are the barriers to entry for new projects ?",
+            "Is the solution solving any actual pain points ?"
+          ],
+          "tools": []
+        },
+        {
+          "subId": "3.3",
+          "subCategory": "Roadmap",
+          "questions": [
+            "What are the major product milestones ?",
+            "Are the product milestones achievable ?",
+            "Does the team have the appropriate resources to accomplish the roadmap ?"
+          ],
+          "checklist": [
+            "Seek to understand whether the roadmap is aligned with the project vision and if it is realistic given the current team structure and financial resources.",
+            "It's easy to have great ideas, but the execution is key and most often where project founders fail at.",
+            "In the roadmap item, seek to understand what adds guenine value to the NFT project."
+          ],
+          "tools": []
+        },
+        {
+          "subId": "3.4",
+          "subCategory": "Revenue",
+          "questions": [
+            "How is the project generating revenus ?",
+            "Are the revenues stream diversified ?",
+            "How is the product development funded ?",
+            "What are the unit economics of the project ?"
+          ],
+          "checklist": [
+            "For a project to be sustainable, it needs to derive revenues. Seek to understand how much revenue is being made by the project.",
+            "If a project is not generating revenues, how will it be sustainable ?",
+            "Treat an NFT project like a company, if a company does not have cash flows, it is bound to fail."
+          ],
+          "tools": []
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "category": "Tokenomics",
+      "content": [
+        {
+          "subId": "4.1",
+          "subCategory": "Supply",
+          "questions": [
+            "Is the NFT supply increasing/getting diluted with other collections ?",
+            "Are the founders planning on launching additional collection ?"
+          ],
+          "checklist": [
+            "\"Dilution\" of the project isn't necessarily a bad sign. It's an opportunity to create further awareness and expand the community and it's values. Dilution is referred to when the main collection launches sub-collections.",
+            "Examples of sub-collections that added substantial value : y00ts & DeGods, Proof & MoonBirds, BAYC & MAYC",
+            "If the project hasn't reached a critical stage and total revenue (market capitalization), a community dilution won't be benefical."
+          ],
+          "tools": []
+        },
+        {
+          "subId": "4.2",
+          "subCategory": "Yield/Income Generation",
+          "questions": [
+            "Is the NFT providing yield ?",
+            "How is the yield generated ?",
+            "Is it real yield ? Is the yield generated sustainable ?"
+          ],
+          "checklist": [
+            "If the NFT project is generating yield, ask yourself, where does the yield come from ? If the yield comes from inflation, it will fade fast.",
+            "If the yield is via an underlying token, what creates buy pressure on this token ?",
+            "Most NFT projects that generate yield aren't sustainable. Once the underlying drops in price, the main collection also does."
+          ],
+          "tools": []
+        },
+        {
+          "subId": "4.3",
+          "name": "Distribution",
+          "questions": [
+            "How is the supply distributed among holders?",
+            "Is a single individual owning a large share of the supply ?",
+            "At what price did the large holders acquire the assets ?"
+          ],
+          "checklist": [
+            "Ideally, you would want a collection with no large whales that can influence the price. NFTs are illiquid, if a large whale put a massive amount of NFTs for sale, it will create a sell wall. The real chads would front run the whale via listening to the Mempool.",
+            "Analyze the whale profiles with the provided links"
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "For more information on the NFT distribution, visit a blockchain explorer or visualization tools such as NFTinit",
+              "link": "https://nftinit.com/"
+            },
+            {
+              "toolId": "2",
+              "tldr": "For more information about the average price at which large holders bought the NFT, a custom tool would have to be used that reads the blockchain.",
+              "link": ""
+            },
+            {
+              "toolId": "3",
+              "tldr": "Analyze whale profiles with Zapper.",
+              "link": "https://zapper.fi/"
+            },
+            {
+              "toolId": "4",
+              "tldr": "Analyze whale profiles with Degen Score",
+              "link": "https://degenscore.com/"
+            },
+            {
+              "toolId": "5",
+              "tldr": "The average buying price (break-even) can be found for separate collections here",
+              "link": "https://nftgo.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "category": "Competition",
+      "content": [
+        {
+          "subId": "5.1",
+          "subCategory": "Comparables",
+          "questions": [
+            "What are comparable NFT collections ?",
+            "What is their valuation ?",
+            "How do they compare relative to key metrics (engagement, volume, team quality, a roadmap)?",
+            "What is the unfair advantage of the project ?",
+            "Why one someone considers buying competitive projects ?"
+          ],
+          "checklist": [
+            "To find comparable collections, do some keyword searching on Twitter. If the project is a GameFi investment DAO, type “GameFi investment DAO” on Twitter, and a few names will pop up.",
+            "Analyze those projects individually and look at the community engagement, team, roadmap, and valuation of the collection.",
+            "Although crypto and NFT markets are not rational, comparing projects helps you understand the upside potential. When comparing projects, refer to the market capitalization and not the NFT floor price: NFT price * Number of items in the collection"
+          ],
+          "tools": []
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "category": "Financial/Valuation Metrics",
+      "content": [
+        {
+          "subId": "6.1",
+          "subCategory": "Valuation",
+          "questions": [
+            "What is the token market capitalization of the collection ?",
+            "What is the trading volume relative to the collection size ?"
+          ],
+          "checklist": [
+            "To compute the market capitalization of a collection, refer to the previous section. To find the trading volume, refer to Opensea, Look Rare, and Rarible.",
+            "An NFT collection with no volume is likely to decrease in floor price as no buyers are interested in purchasing the NFT. Keep in mind that NFTs are illiquid assets.",
+            "Please note that most NFT projects have a psychological floor ceiling. Historically, the 10 ETH floor has been a strong resistance."
+          ],
+          "tools": []
+        },
+        {
+          "subId": "6.2",
+          "subCategory": "Collection statistics",
+          "questions": [
+            "What is the floor strength of the collection ?",
+            "How many active listings does the collection have ?",
+            "How many blue chip NFTs are held by collection holders ?"
+          ],
+          "checklist": [
+            "The floor strength is an indicator of how many assets are listed at a given price. This indicator can be found on NFTinit. We refer to a “thin” floor when not many assets are listed.",
+            "A collection with a thin floor price is likely to increase in price as it only takes a small buy pressure to push the price up. The fewer active listings the collection has, the better.",
+            "A collection with less than 5% of assets listed is a good sign."
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "The floor strength is an indicator of how many assets are listed at a given price. This indicator can be found on NFTinit",
+              "link": "https://nftinit.com/"
+            }
+          ]
+        },
+        {
+          "subId": "6.3",
+          "subCategory": "Growth",
+          "questions": [
+            "What is the recent price movement ?",
+            "What is the price trend ?",
+            "What has the volume trended ?",
+            "What is likely to increase the trading volume of the collection ?"
+          ],
+          "checklist": [
+            "To analyze the price action and the volume of an NFT collection, use NFTinit or Coingecko.",
+            "If the volume is slowly decreasing (in terms of ETH trading volume), it's usually a bad sign as the appetite from buyers dries down. "
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "To analyze the price action and the volume of an NFT collection, use NFTinit",
+              "link": "https://nftinit.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "category": "External environment",
+      "content": [
+        {
+          "subId": "7.1",
+          "subCategory": "Macro environment",
+          "questions": [
+            "In which economic context are we? Is the FED doing QT (Quantitative Tightening) or QE (Quantitative Easing) ",
+            "What's the forecasted inflation rate ? CPI ",
+            "What's the 10 year treasury note ?"
+          ],
+          "checklist": [
+            "Cryptos are risk-on assets and some of the riskiest assets out there. The trading volume is linked to the underlying risk appetite of investors. If the market is overall bearish, few investors will risk their assets. This has a direct impact on crypto's asset classes and NFTs.",
+            "In bearish market conditions, the assets that suffer the most are risk-on assets. In the spectrum of risk, NFTs are some of the riskiest assets."
+          ],
+          "tools": []
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "category": "Mint details",
+      "content": [
+        {
+          "subId": "8.1",
+          "subCategory": "Is the collection likely to sell out ?",
+          "questions": [
+            "What's the community size relative to the collection size and mint market capitalization ?",
+            "What's the whitelisting process? How hard is it to obtain a whitelist? The success of a mint sell out can be predicated by the success of the whitelisting process."
+          ],
+          "checklist": [
+            "A great formula to find out the likelyhood of selling out can be found in the Tools column",
+            "For the most advanced, you can reverse a whitelist merkle tree (DTC) and check the wallet balance of the whitelisted address via a bot. If you have 2x the number of whitelisted address with sufficient ETH / SOL to mint, it's a good sign :)"
+          ],
+          "tools": [
+            {
+              "toolId": "1",
+              "tldr": "(starting market) / ((active community / 4) * $200)",
+              "link": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "category": "Growth and Marketing",
+      "content": [
+        {
+          "subId": "9.1",
+          "subCategory": "Community growth",
+          "questions": [
+            "How has the community grown over time ?",
+            "What is likely to drive further growth to the project ?",
+            "On what growth funnels are the project relying ?",
+            "What could lead to a declining growth rate ?"
+          ],
+          "checklist": [
+            "If the community is constantly growing, it's likely that the NFT project will do well. On the flip side, if the NFT project is losing community members. If the NFT project is losing members, seek to understand why.",
+            "If the project is relying on paid marketing tactics only, it's not sustainable.",
+            "Usually, what happens is most NFT projects get an initial hype around mint and then the momentum dries down."
+          ],
+          "tools": []
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "category": "Regulatory",
+      "content": [
+        {
+          "subId": 10.1,
+          "subCategory": "Regulatory risks",
+          "questions": [
+            "In what jurisdiction does the project operate?",
+            "Is the team from the United States or another regulatory-challenged jurisdiction ?",
+            "How can a sudden shift in the regulatory landscape affect the project ?",
+            "Can the NFT be considered a security ?"
+          ],
+          "checklist": ["stay lawful"],
+          "tools": []
+        }
+      ]
+    }
+  ]
+}
