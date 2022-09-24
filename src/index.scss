@@ -44,3 +44,16 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #6abd4c;
 }
+
+.pepe {
+  position: absolute;
+  animation: float 3.5s infinite ease-in-out;
+  @keyframes float {
+    50% {
+      transform: translateY(0.5em);
+    }
+    100% {
+      transform: translateY(0em);
+    }
+  }
+}

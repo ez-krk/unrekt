@@ -2,6 +2,7 @@ import Hero from './components/hero/hero.component';
 import Header from './components/header/header.component';
 import Table from './components/table/table.component';
 import Footer from './components/footer/footer.component';
+import Pepe from './components/pepe/pepe.component';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Header />
       <Table />
+      <Pepe />
       <Footer />
     </div>
   );
